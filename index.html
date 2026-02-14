@@ -10,20 +10,37 @@
   <meta name="description" content="Strategic analysis of India's governance transformation (2014–2025)." />
   <meta name="author" content="Kallol Chakrabarti, Global Independent Researcher" />
 
-  <!-- FIXES ALL PATH ISSUES -->
   <base href="https://helixoriginator.github.io/bharat-governance-transformation/" />
 
-  <!-- React build -->
   <script type="module" src="index-DIqCDm_F.js"></script>
   <link rel="stylesheet" href="index-DZ0gqAHE.css">
 
   <style>
+
     body {
       margin: 0;
       background: #0a0a0f;
       color: white;
       font-family: system-ui, Arial;
+      text-align: center;
     }
+
+    .pdf-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 16px 32px;
+      background: #ff9933;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+
+    .pdf-button:hover {
+      background: #ffaa44;
+    }
+
   </style>
 
 </head>
@@ -32,12 +49,20 @@
 
 <div id="root"></div>
 
-<footer style="text-align:center;padding:20px;color:#aaa;font-size:14px;">
+<!-- WORKING PDF BUTTON -->
+<div>
+  <a 
+    class="pdf-button"
+    href="https://helixoriginator.github.io/bharat-governance-transformation/india-governance-transformation.pdf"
+    target="_blank"
+  >
+    Open Full Strategic Presentation (PDF)
+  </a>
+</div>
+
+<footer style="margin-top:40px;padding:20px;color:#aaa;font-size:14px;">
 Created by Kallol Chakrabarti, Global Independent Researcher
 </footer>
-
-<!-- THIS LINE FIXES THE PDF BUTTON -->
-<script src="public-path-fix.js"></script>
 
 </body>
 </html>
